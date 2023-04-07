@@ -8,7 +8,6 @@ $$$$$$$
 int main()
 {
     int i,j,k;
-    char c='$';
     for(i=0;i<4;i++)
     {
         for(j=0;j<(3-i);j++)
@@ -23,5 +22,5 @@ int main()
         printf("\n");
     }
 
-
+return 0;
 }
