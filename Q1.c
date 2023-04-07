@@ -15,9 +15,10 @@ for(i=1;i<=4;i++)
     {
     printf("%d \t",n);
     n++;
+    }
+    printf("\n");
 }
-printf("\n");
-}
-
 return 0;
 }
+
+
