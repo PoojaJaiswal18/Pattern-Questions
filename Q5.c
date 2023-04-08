@@ -12,7 +12,7 @@
 int main()
 {
     int  n,i,j,k;
-    printf("Enter the size of sq:");
+    printf("Enter the length of side sq:");
     scanf("%d",&n);
 
 
