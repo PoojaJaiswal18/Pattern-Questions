@@ -5,22 +5,22 @@
      D E E D
   */
 
-//  #include<stdio.h>
-//  int main(){
-//     int i,j,k;
-//     char c='A';
-//        printf(" ");
-//     for (i = 0; i < 5; i++)
-//     {
-//         for ( j = 0; j < i; j++)
-//         {
-//             printf(" ");
-//         }
-//         for ( k = (69-i); k >64; k--)
-//         {
-//             printf("%c",c);
-//             c++;
-//         }
+ #include<stdio.h>
+ int main(){
+    int i,j,k;
+    char c='A';
+       printf(" ");
+    for (i = 0; i < 5; i++)
+    {
+        for ( j = 0; j < i; j++)
+        {
+            printf(" ");
+        }
+        for ( k = (69-i); k >64; k--)
+        {
+            printf("%c",c);
+            c++;
+        }
 
        
         
@@ -62,21 +62,21 @@
 //     }
 //     return 0;
 // }
-#include<stdio.h>
-int main(){
- char ch='A';    
-    int i, j, k, m,cout;    
-    for(i=1;i<=5;i++)    
-    {    
-        for(j=5;j>=i;j--)    
-            cout<<" ";    
-        for(k=1;k<=i;k++)    
-            cout<<ch++;    
-            ch--;    
-        for(m=1;m<i;m++)    
-            cout<<--ch;    
-        cout<<"\n";    
-        ch='A';    
-    }    
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//  char ch='A';    
+//     int i, j, k, m,cout;    
+//     for(i=1;i<=5;i++)    
+//     {    
+//         for(j=5;j>=i;j--)    
+//             cout<<" ";    
+//         for(k=1;k<=i;k++)    
+//             cout<<ch++;    
+//             ch--;    
+//         for(m=1;m<i;m++)    
+//             cout<<--ch;    
+//         cout<<"\n";    
+//         ch='A';    
+//     }    
+//     return 0;
+// }
